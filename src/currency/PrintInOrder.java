@@ -17,7 +17,6 @@ class PrintInOrder {
         // printFirst.run() outputs "first". Do not change or remove this line.
         printFirst.run();
         latch2.countDown();
-        int[] r = new int[] {1, 2};
     }
 
     public void second(Runnable printSecond) throws InterruptedException {

@@ -9,8 +9,8 @@ public class TwoDimensionalArrayToSortedArray {
     //评测题目: 无
     // 一个二维数组，乱序的，合并成一个有序数组并返回
     // 1,3,1,2
-    // 2,0,5,1
-    // 0,5,1,0
+    // 2,0,5
+    // 0,5,1,0,9
     // 解法1：转换成一维数组后冒泡（或其他排序）
     // Runtime: O(K * K), m为二维数组行，n为列
     // Space: O(K)

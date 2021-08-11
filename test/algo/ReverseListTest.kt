@@ -9,10 +9,10 @@ class ReverseListTest {
     @Test
     fun test() {
         val solution = ReverseList.Solution()
-        val head = ListNode(0)
-        val node1 = ListNode(1)
-        val node2 = ListNode(2)
-        val node3 = ListNode(3)
+        val head = ListNode(1)
+        val node1 = ListNode(2)
+        val node2 = ListNode(3)
+        val node3 = ListNode(4)
 
         head.next = node1
         node1.next = node2
